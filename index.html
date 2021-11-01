@@ -34,9 +34,11 @@
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <div class="navbar-nav ms-auto mb-2 mb-1-0 text-center">
                         <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
-                        <a class="nav-link" id="pedritoo" href="#">CANDY</a>
-                        <img src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/64/000000/external-user-interface-kiranshastry-solid-kiranshastry.png"
-                            height="50px" />
+                        <a class="nav-link" id="pedritoo" href="#">4D</a>
+                        <a href="login.html" target="_blank" rel="noopener noreferrer">
+                            <img src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/64/000000/external-user-interface-kiranshastry-solid-kiranshastry.png"
+                            height="40px"/>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -95,27 +97,6 @@
     <!-- PopUp - Watch Trailer -->
 
     <div id="popUp" style="display: none;">
-        <div class="card1">
-            <div class="card-header">
-                CINEAR
-            </div>
-            <div class="card-body">
-                <h5 class="card-title">Special title treatment</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, optio quibusdam
-                    beatae, quaerat, accusamus ad quos voluptate et error adipisci consequatur ipsa rerum dolore est
-                    atque eum a magni dicta.</p>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            </div>
-        </div>
-        <div>
-            <ul class="info">
-                <h5>información</h5>
-                <li>género:</li>
-                <li>duración:</li>
-                <li>actores:</li>
-                <li>director:</li>
-            </ul>
-        </div>
         <div class="thisOne">
             <iframe id="trailerVideo" width="560" height="250" src="" title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -126,15 +107,33 @@
 
     <!-- // CARTELERA N° 1 // -->
 
+
     <div id="prueba">
         <h1 class="movies">The Joker</h1>
         <h1 class="movies">El Padrino</h1>
         <h1 class="movies">The Revenant</h1>
         <h1 class="movies">Back to the future</h1>
+        <div id="modal" style="display: none;">
+        </div>  
     </div>
+    
+
 
     <div class="linea2">
     </div>
+
+
+    <!-- PopUp2 - Watch Trailer -->
+
+    <div id="popUp2" style="display: none;">
+        <div class="thisOne2">
+            <iframe id="trailerVideo2" width="560" height="250" src="" title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+        <button type="button" class="btn-close btn-close-dark text-center" aria-label="Close"></button>
+    </div>
+
 
     <!-- // CARTELERA N° 2 // -->
 
@@ -148,7 +147,9 @@
             <h1 class="movies">Avengers End Game</h1>
             <h1 class="movies">Star Wars New Hope</h1>
             <h1 class="movies">Jurassic Park</h1>
-            <h1 class="movies">Free Guy</h1>
+            <h1 class="movies">Harry Potter IV</h1>
+            <div id="modal2" style="display: none;">
+
         </div>
 
     </div>
@@ -164,7 +165,9 @@
 
 
     <footer>
-
+        <div class="footer-copyright text-center py-3 bg-dark text-white">© 2021 Copyright:
+            <a href="https://github.com/PedroGiuglio" target="_blank" >https://github.com/PedroGiuglio</a>
+        </div>
     </footer>
 
 
@@ -177,7 +180,7 @@
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
     </script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="js/Desafio8.js"></script>
+    <script src="js/final.js"></script>
     <script src="js/main.js"></script>
 </body>
 

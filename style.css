@@ -9,7 +9,7 @@
   flex-direction: row;
   justify-content: space-evenly;
   margin-top: 90px;
-  background-color: #333333;
+  background-color: black;
 }
 
 .btn-circle.btn-xl {
@@ -75,63 +75,29 @@
 
 #popUp {
   display: flex;
-  flex-direction: row;
+  justify-content: center;
   flex-wrap: nowrap;
-  justify-content: space-between;
-  background-color: white;
+  background-color: grey;
   border: black solid 2px;
   height: 350px;
-}
-#popUp .card1 {
-  margin-left: 80px;
-  width: 400px;
-  height: 300px;
-  margin-top: 35px;
-  background-color: grey;
-  color: white;
-  border-color: white;
-}
-#popUp .info {
-  display: flex;
-  flex-direction: column;
-  text-transform: uppercase;
-  margin-left: -550px;
-  margin-top: 35px;
-  height: 300px;
-  width: 220px;
-  background-color: grey;
-}
-#popUp .info h5 {
-  text-transform: uppercase;
-  margin-top: 15px;
-  color: black;
-  font-weight: bold;
-  background-color: white;
-  width: 170px;
-  text-align: center;
-  justify-content: center;
-}
-#popUp .info li {
-  text-align: start;
-  margin-top: 20px;
-  color: white;
-  text-transform: lowercase;
+  width: 700px;
+  margin-left: 400px;
 }
 #popUp .thisOne {
   width: 700px;
   height: 500px;
-  margin-left: 500px;
+  margin-left: 100px;
   position: absolute;
   border-color: black solid 3px;
 }
 #popUp .thisOne iframe {
   margin-top: 35px;
-  margin-left: 300px;
-  border-color: black solid 3px;
+  margin-left: 30px;
 }
 #popUp .btn-close {
-  margin-left: -120px;
-  color: red;
+  margin-left: 630px;
+  margin-top: 10px;
+  background-color: red;
 }
 
 #prueba {
@@ -162,9 +128,9 @@
   font-size: 18px;
   margin-top: 10px;
   font-weight: bold;
-  background-color: white;
+  background-color: black;
   height: 30px;
-  color: black;
+  color: gold;
 }
 #prueba .btn-success {
   display: flex;
@@ -179,6 +145,51 @@
 
 .movies {
   display: none;
+}
+
+#modal {
+  height: 350px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin-top: 50px;
+  text-align: center;
+  color: white;
+  position: absolute;
+}
+#modal .catePeli {
+  background-color: black;
+  width: 250px;
+  color: white;
+  font-weight: bolder;
+}
+#modal .idiomaPeli {
+  background-color: black;
+  width: 250px;
+  color: white;
+  font-weight: bolder;
+}
+#modal .duracionPeli {
+  background-color: black;
+  width: 250px;
+  color: white;
+  font-weight: bolder;
+}
+#modal .actorPeli {
+  background-color: black;
+  width: 250px;
+  color: white;
+  font-weight: bolder;
+}
+#modal .actorPeli span {
+  color: gold;
+}
+#modal .directorPeli {
+  background-color: black;
+  width: 250px;
+  color: white;
 }
 
 .linea2 {
@@ -197,6 +208,34 @@
   margin-left: 70px;
 }
 
+#popUp2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  background-color: grey;
+  border: black solid 2px;
+  height: 350px;
+  width: 700px;
+  margin-left: 400px;
+  margin-top: 20px;
+}
+#popUp2 .thisOne2 {
+  width: 700px;
+  height: 500px;
+  margin-left: 100px;
+  position: absolute;
+  border-color: black solid 3px;
+}
+#popUp2 .thisOne2 iframe {
+  margin-top: 35px;
+  margin-left: 30px;
+}
+#popUp2 .btn-close {
+  margin-left: 630px;
+  margin-top: 10px;
+  background-color: red;
+}
+
 #prueba2 {
   height: auto;
   width: 100%;
@@ -208,19 +247,81 @@
   text-align: center;
   color: white;
 }
-#prueba2 .imgPelicula {
+#prueba2 .imgPelicula2 {
   height: 350px;
   border: white solid 3px;
 }
+#prueba2 .btn-info {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 250px;
+  text-align: center;
+  font-weight: bold;
+  justify-content: center;
+  color: white;
+}
 #prueba2 .tituloPeli {
-  font-size: 22px;
+  font-size: 18px;
   margin-top: 10px;
   font-weight: bold;
+  background-color: black;
+  height: 30px;
+  color: gold;
 }
-#prueba2 .idiomaPeli {
-  margin-bottom: 10px;
+#prueba2 .btn-success {
   display: flex;
-  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 250px;
+  text-align: center;
+  font-weight: bold;
+  justify-content: center;
+  color: white;
+  margin-top: -10px;
+}
+
+#modal2 {
+  height: 350px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin-top: 50px;
+  text-align: center;
+  color: white;
+  position: absolute;
+}
+#modal2 .catePeli {
+  background-color: black;
+  width: 250px;
+  color: white;
+  font-weight: bolder;
+}
+#modal2 .idiomaPeli {
+  background-color: black;
+  width: 250px;
+  color: white;
+  font-weight: bolder;
+}
+#modal2 .duracionPeli {
+  background-color: black;
+  width: 250px;
+  color: white;
+  font-weight: bolder;
+}
+#modal2 .actorPeli {
+  background-color: black;
+  width: 250px;
+  color: white;
+  font-weight: bolder;
+}
+#modal2 .actorPeli span {
+  color: gold;
+}
+#modal2 .directorPeli {
+  background-color: black;
+  width: 250px;
+  color: white;
 }
 
 #forms {
@@ -244,9 +345,4 @@
 #forms .btn-success {
   height: 55px;
   font-weight: bolder;
-}
-
-footer {
-  background-color: gray;
-  height: 10vh;
 }/*# sourceMappingURL=style.css.map */

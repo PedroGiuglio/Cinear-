@@ -10,7 +10,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     margin-top: 90px;
-    background-color: rgb(51, 51, 51);
+    background-color: black;
 }
 
 .btn-circle.btn-xl {
@@ -78,74 +78,31 @@
 
 #popUp {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
     flex-wrap: nowrap;
-    justify-content: space-between;
-    background-color:white;
+    background-color:grey;
     border: black solid 2px;
     height: 350px;
-
-    .card1{
-        margin-left: 80px;
-        width: 400px;
-        height: 300px;
-        margin-top: 35px;
-        background-color: grey;
-        color: white;
-        border-color: white;
-    }
-
-    .info{
-        display: flex;
-        flex-direction: column;
-        text-transform: uppercase;
-        margin-left: -550px;
-        margin-top: 35px;
-        height: 300px;
-        width: 220px;
-        background-color: grey;
-        h5{
-            // text-align: center;
-            text-transform: uppercase;
-            margin-top: 15px;
-            color: black;
-            font-weight: bold;
-            background-color: white;
-            width: 170px;
-            text-align: center;
-            justify-content: center;
-        }
-        li{
-            text-align: start;
-            margin-top: 20px;
-            color: white;
-            text-transform: lowercase;
-        }
-    }
+    width: 700px;
+    margin-left: 400px;
 
     .thisOne {
         width: 700px;
         height: 500px;
-        margin-left: 500px;
+        margin-left: 100px;
         position: absolute;
         border-color: black solid 3px;
 
         iframe {
-            // display: flex;
-            // flex-direction: column;
-            // justify-content: center;
             margin-top: 35px;
-            margin-left: 300px;
-            border-color: black solid 3px;
-            // margin-left: 70px;
+            margin-left: 30px;
         }
     }
     
     .btn-close{
-        // display: flex;
-        // justify-content: center;
-        margin-left:-120px;
-        color: red;
+        margin-left:630px;
+        margin-top: 10px;
+        background-color: red;
     }
 }
 
@@ -181,9 +138,9 @@
         font-size: 18px;
         margin-top: 10px;
         font-weight: bold;
-        background-color: white;
+        background-color: black;
         height: 30px;
-        color: black;
+        color: gold;
     }
 
     .btn-success{
@@ -196,12 +153,58 @@
         color: white;
         margin-top: -10px;
     }
-
+    
 }
 
 .movies {
     display: none;
 }
+
+#modal{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    .catePeli{
+        background-color: black;
+        width: 250px;
+        color: white;
+        font-weight: bolder;
+    }
+    .idiomaPeli{
+        background-color: black;
+        width: 250px;
+        color: white;
+        font-weight: bolder;
+    }
+    .duracionPeli{
+        background-color: black;
+        width: 250px;
+        color: white;
+        font-weight: bolder;
+    }
+    .actorPeli{
+        background-color: black;
+        width: 250px;
+        color: white;
+        font-weight: bolder;
+        span{
+            color: gold;
+        }
+    }
+    .directorPeli{
+        background-color: black;
+        width: 250px;
+        color: white;
+    }
+}
+
 
 
 .linea2 {
@@ -221,6 +224,39 @@
     margin-left: 70px;
 }
 
+#popUp2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    background-color:grey;
+    border: black solid 2px;
+    height: 350px;
+    width: 700px;
+    margin-left: 400px;
+    margin-top: 20px;
+
+    .thisOne2 {
+        width: 700px;
+        height: 500px;
+        margin-left: 100px;
+        position: absolute;
+        border-color: black solid 3px;
+
+        iframe {
+            margin-top: 35px;
+            margin-left: 30px;
+        }
+    }
+    
+    .btn-close{
+        margin-left:630px;
+        margin-top: 10px;
+        background-color: red;
+    }
+}
+
+
+
 #prueba2 {
     height: auto;
     width: 100%;
@@ -232,23 +268,88 @@
     text-align: center;
     color: white;
 
-    .imgPelicula {
+    .imgPelicula2 {
         height: 350px;
         border: white solid 3px;
     }
 
-    .tituloPeli {
-        font-size: 22px;
-        margin-top: 10px;
+    .btn-info{
+        display: flex;
+        flex-wrap: nowrap;
+        width: 250px;
+        text-align: center;
         font-weight: bold;
+        justify-content: center;
+        color: white;
     }
 
-    .idiomaPeli {
-        margin-bottom: 10px;
+    .tituloPeli {
+        font-size: 18px;
+        margin-top: 10px;
+        font-weight: bold;
+        background-color: black;
+        height: 30px;
+        color: gold;
+    }
+
+    .btn-success{
         display: flex;
-        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 250px;
+        text-align: center;
+        font-weight: bold;
+        justify-content: center;
+        color: white;
+        margin-top: -10px;
     }
 }
+
+#modal2{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    .catePeli{
+        background-color: black;
+        width: 250px;
+        color: white;
+        font-weight: bolder;
+    }
+    .idiomaPeli{
+        background-color: black;
+        width: 250px;
+        color: white;
+        font-weight: bolder;
+    }
+    .duracionPeli{
+        background-color: black;
+        width: 250px;
+        color: white;
+        font-weight: bolder;
+    }
+    .actorPeli{
+        background-color: black;
+        width: 250px;
+        color: white;
+        font-weight: bolder;
+        span{
+            color: gold;
+        }
+    }
+    .directorPeli{
+        background-color: black;
+        width: 250px;
+        color: white;
+    }
+}
+
+
 
 #forms {
     margin-top: 120px;
@@ -274,8 +375,3 @@
     }
 }
 
-
-footer {
-    background-color: gray;
-    height: 10vh;
-}
