@@ -345,4 +345,11 @@
 #forms .btn-success {
   height: 55px;
   font-weight: bolder;
+}
+
+#fail {
+  position: absolute;
+  background-color: red;
+  width: 500px;
+  height: 250px;
 }/*# sourceMappingURL=style.css.map */

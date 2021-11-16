@@ -2,7 +2,6 @@
     background-color: black;
 }
 
-
 #botones {
     height: 70px;
     width: 100%;
@@ -375,3 +374,9 @@
     }
 }
 
+#fail{
+    position: absolute;
+    background-color: red;
+    width: 500px;
+    height: 250px;
+}

@@ -100,7 +100,7 @@ function btnChanger3() {
 
 
 const button1 = "Modo BLUE activado"
-localStorage.setItem("Boton1",button1)
+localStorage.setItem("Boton1",button1);
 
 const colorLocalStorage = localStorage.getItem("Boton1");
 
@@ -131,12 +131,12 @@ function validarFormulario(e) {
 // FORM - LOGIN //
 
 function go(){
-
-    if (document.form.password.value=='CONTRASEÑA' && document.form.login.value=='USUARIO'){ 
-            document.form.submit(); 
-        } 
-        else{ 
-            alert("Por favor ingrese, nombre de usuario y contraseña correctos."); 
-        } 
-    } 
+        if (document.form.password.value=='CONTRASEÑA' && document.form.login.value=='USUARIO'){ 
+                document.form.submit(); 
+                location.replace("index.html")
+            } 
+            else{
+        alert("Usuario y/o contraseña incorrectos")
+    }
+}
 
